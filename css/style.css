@@ -2,6 +2,10 @@ body {
   background-color: #e6ecf0;
 }
 
+body>.container {
+  margin-top: -10px;
+}
+
 .blue-bc {
   background-color: #1da1f2;
   color: #fff;
@@ -46,4 +50,8 @@ body {
 .btn-pattern:hover {
   background-color: #1da1f2;
   color: #fff;
+}
+
+.module-center {
+  padding: 0 10px;
 }
