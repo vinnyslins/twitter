@@ -55,3 +55,20 @@ body>.container {
 .module-center {
   padding: 0 10px;
 }
+
+.profile-top {
+  height: 95px;
+}
+
+.profile-bottom {
+  background-color: #fff;
+  height: 113px;
+}
+
+.profile>div {
+  height: 52px;
+}
+
+.profile-info {
+  height: 61px;
+}
