@@ -71,4 +71,39 @@ body>.container {
 
 .profile-info {
   height: 61px;
+  display: table;
+  width: 100%;
+}
+
+.profile-info div {
+  display: table-cell;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.profile-info div>a>h6, .profile-info div>a>h4 {
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.profile-info div>:hover {
+  text-decoration: none;
+}
+
+.profile-foto>a>img {
+  background-color: #2c3e50;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 72px;
+  width: 72px;
+  margin: -30px 0 0 0;
+}
+
+.profile-bottom .col-xs-8 h4 {
+  font-weight: bold;
+  margin: 8px 0 -5px -15px;
+}
+
+.profile-bottom h5 {
+  margin-left: -15px;
 }
