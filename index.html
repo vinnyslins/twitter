@@ -21,13 +21,13 @@
           </ul>
 
           <form class="navbar-form navbar-right">
-            <div class="input-group add-on">
+            <div class="input-group">
               <input type="text" class="form-control border-radius" placeholder="Search Twitter" name="search">
               <div class="input-group-btn">
                 <button class="btn btn-default border-radius"><i class="fa fa-search" aria-hidden="true"></i></button>
               </div>
             </div>
-              &nbsp;<a href="#"><img src="img/profile.png"></a>&nbsp;
+              &nbsp;<a href="#"><img class="img-profile" src="img/profile.png"></a>&nbsp;
               <button class="btn btn-pattern border-radius" name="button">Tweet</button>
           </form>
         </div>
@@ -48,24 +48,24 @@
             </div>
           </div>
           <div class="container-fluid profile-info">
-            <div>
-              <a href="#">
+            <a href="#">
+              <div>
                 <h6 class="gray-color">Tweets</h6>
                 <h4 class="blue-color">2</h4>
-              </a>
-            </div>
-            <div>
-              <a href="#">
+              </div>
+            </a>
+            <a href="#">
+              <div>
                 <h6 class="gray-color">Following</h6>
                 <h4 class="blue-color">54</h4>
-              </a>
-            </div>
-            <div>
-              <a href="#">
+              </div>
+            </a>
+            <a href="#">
+              <div>
                 <h6 class="gray-color">Followers</h6>
                 <h4 class="blue-color">17</h4>
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
 
@@ -119,9 +119,15 @@
         </div>
       </div>
       <div class="col-md-6 module-center">
-        <div style="background-color:#f0f;">
-          teste
+        <div class="internal-module-center">
+          <div class="new-tweet">
+            <img class="img-profile" src="img/profile.png">&nbsp;
+            <textarea class="form-control" name="newtweet" rows="1" maxlength="140" placeholder="What's happening?"></textarea>&nbsp;
+            <button class="btn btn-pattern border-radius" name="button">Tweet</button>
+          </div>
         </div>
+
+
       </div>
       <div class="col-md-3" style="background-color:#0ff;">
         teste

@@ -41,7 +41,7 @@ body>.container {
   left: 50%;
 }
 
-.navbar-form a>img {
+img.img-profile {
   height: 32px;
   width: 32px;
   background-color: #2c3e50;
@@ -57,10 +57,6 @@ body>.container {
 .btn-pattern:hover {
   background-color: #1da1f2;
   color: #fff;
-}
-
-.module-center {
-  padding: 0 10px;
 }
 
 .profile-top {
@@ -88,13 +84,9 @@ body>.container {
   padding-left: 10px;
 }
 
-.profile-info div>a>h6, .profile-info div>a>h4 {
+.profile-info a>div>h6, .profile-info a>div>h4 {
   font-weight: bold;
   margin-bottom: -5px;
-}
-
-.profile-info div>:hover {
-  text-decoration: none;
 }
 
 .profile-foto>a>img {
@@ -138,4 +130,34 @@ body>.container {
   color: #1da1f2;
   font-weight: bold;
   margin: 0 5px -8px 0px;
+}
+
+.module-center {
+  padding: 0 10px;
+}
+
+.internal-module-center {
+  background-color: #fff;
+}
+
+.new-tweet {
+  background-color: #e8f5fd;
+  padding: 10px 10px 10px 20px;
+}
+
+.new-tweet>* {
+  display: inline-block;
+}
+
+.new-tweet>.form-control {
+  max-width: 400px;
+  resize: none;
+}
+
+.new-tweet>.form-control:focus {
+  height: 80px;
+}
+
+.new-tweet>img.img-profile, .new-tweet>button.btn-pattern {
+  margin-top: -26px;
 }
