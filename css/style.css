@@ -117,7 +117,7 @@ img.img-profile {
   font-weight: bold;
 }
 
-.trends>.trends-top>h6 {
+.trends>.trends-top h6>a {
   color: #1da1f2;
 }
 
@@ -174,4 +174,82 @@ img.img-profile {
 
 #see-new-tweets:hover {
   background-color: #eee;
+}
+
+.follow {
+  background-color: #fff;
+  display: block;
+}
+
+.follow>.how-to-follow>h4 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.follow>.how-to-follow h6>a {
+  color: #1da1f2;
+}
+
+.how-to-follow>* {
+  display: inline-block;
+}
+
+
+.who-to-follow>.followed-by {
+  margin: 0;
+}
+
+.followed-by {
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  border-bottom: 1px solid #e6ecf0;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.content>a>img.img-follow {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+}
+
+.profile-follow {
+  margin-left: 58px;
+}
+
+.profile-follow>h5>a {
+  font-weight: bold;
+  color: #000;
+}
+
+.profile-follow>h5>a:hover {
+  color: #1da1f2;
+}
+
+.profile-follow>h5 {
+  display: inline;
+}
+
+.profile-follow>h5>a>i.fa-times {
+  float: right;
+  margin-top: 3px;
+}
+
+.btn-follow {
+  background-color: #fff;
+  color: #1da1f2;
+  font-weight: bold;
+  width: 84px;
+  height: 26px;
+  padding: 3px;
+  border: 1px solid #1da1f2;
+  margin-top: 2px;
+}
+
+.btn-follow:hover {
+  background-color: #e8f5fd;
+  color: #1da1f2;
 }
