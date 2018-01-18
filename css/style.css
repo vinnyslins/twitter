@@ -173,7 +173,8 @@ img.img-profile {
 }
 
 #see-new-tweets:hover {
-  background-color: #eee;
+  background-color: #e6ecf0;
+  border: 1px solid #ccd6dd;
 }
 
 .follow {
@@ -252,4 +253,27 @@ img.img-profile {
 .btn-follow:hover {
   background-color: #e8f5fd;
   color: #1da1f2;
+}
+
+.outlook-content {
+  margin-left: 40px;
+}
+
+.img-outlook {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e6ecf0;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.outlook-content>h5 {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: -8px;
+}
+
+.outlook-content>h6 {
+  margin-bottom: 0;
 }
