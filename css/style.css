@@ -239,6 +239,10 @@ img.img-profile {
   margin-top: 3px;
 }
 
+.profile-follow>i.fa-check-circle {
+  color: #1da1f2;
+}
+
 .btn-follow {
   background-color: #fff;
   color: #1da1f2;
@@ -300,4 +304,23 @@ img.img-profile {
 
 .footer>h6>* {
   color: #1da1f2;
+}
+
+.tweet {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px;
+}
+
+.tweet:hover {
+  background-color: #f5f8fa;
+}
+
+.tweet>a>img.tweet-profile-photo {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+}
+
+.tweet-content {
+  margin-left: 58px;
 }
