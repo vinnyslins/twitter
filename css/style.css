@@ -161,3 +161,17 @@ img.img-profile {
 .new-tweet>img.img-profile, .new-tweet>button.btn-pattern {
   margin-top: -26px;
 }
+
+#see-new-tweets {
+  background-color: #f5f8fa;
+  color: #1da1f2;
+  height: 42px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e6ecf0;
+  border-top: 1px solid #e6ecf0;
+}
+
+#see-new-tweets:hover {
+  background-color: #eee;
+}
