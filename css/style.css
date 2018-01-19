@@ -325,6 +325,20 @@ img.img-profile {
   margin-left: 58px;
 }
 
+.tweet-content>img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tweet-content>.embed-responsive {
+  margin-bottom: 10px;
+}
+
+.tweet-content>h5>a {
+  color: #1da1f2;
+}
+
 .btn-more-tweet {
   float: right;
   margin-top: -20px;
