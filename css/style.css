@@ -324,3 +324,64 @@ img.img-profile {
 .tweet-content {
   margin-left: 58px;
 }
+
+.btn-more-tweet {
+  float: right;
+  margin-top: -20px;
+}
+
+.btn-more-tweet>.dropdown-menu>li>a {
+  color: #657786;
+}
+
+.btn-more-tweet>.dropdown-menu>li>a:hover {
+  background-color: #1da1f2;
+  color: #fff;
+}
+
+.actions-tweet>* {
+  display: inline;
+  font-weight: bold;
+  color: #657786;
+}
+
+.actions-tweet>a>.fa {
+  font-size: 16px;
+  color: #657786;
+}
+
+.actions-tweet>a>.fa-comment-o {
+  margin-left: 58px;
+}
+
+.actions-tweet>a>.fa-retweet {
+  margin-left: 30px;
+}
+
+.actions-tweet>a>.fa-heart-o {
+  margin-left: 30px;
+}
+
+.actions-tweet>a>.fa-envelope-o {
+  margin-left: 30px;
+}
+
+.actions-tweet>a>.fa-comment-o:hover {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.actions-tweet>a>.fa-retweet:hover {
+  text-decoration: none;
+  color: #17bf63;
+}
+
+.actions-tweet>a>.fa-heart-o:hover {
+  text-decoration: none;
+  color: #e0245e;
+}
+
+.actions-tweet>a>.fa-envelope-o:hover {
+  text-decoration: none;
+  color: #1da1f2;
+}
